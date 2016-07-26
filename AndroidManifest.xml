@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rapela.soccerpredictor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_laun"
+        android:label="soka Predictor"
+        android:theme="@style/AppTheme" android:debuggable="false" android:logo="@drawable/sp" android:description="@drawable/sp">
+        <activity
+            android:name="com.rapela.soccerpredictor.SoccerPredictor"
+            android:label="soccer Predictor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.rapela.soccerpredictor.overunderPrediction"
+            android:label="over/under Prediction" >
+            <intent-filter>
+                <action android:name="android.intent.action.overunderPrediction" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

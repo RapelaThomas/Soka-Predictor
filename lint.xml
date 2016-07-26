@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CutPasteId" severity="ignore" />
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_soccer_predictor.xml" />
+        <ignore path="res/layout/ou.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res/layout/activity_soccer_predictor.xml" />
+    </issue>
+</lint>
